@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/appstore/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/appstore/static/js/main.d5fb7746.chunk.js",
+    "main.js.map": "/appstore/static/js/main.d5fb7746.chunk.js.map",
+    "runtime-main.js": "/appstore/static/js/runtime-main.82ae471c.js",
+    "runtime-main.js.map": "/appstore/static/js/runtime-main.82ae471c.js.map",
+    "static/js/2.62c4e4a6.chunk.js": "/appstore/static/js/2.62c4e4a6.chunk.js",
+    "static/js/2.62c4e4a6.chunk.js.map": "/appstore/static/js/2.62c4e4a6.chunk.js.map",
+    "static/js/3.3de4c23c.chunk.js": "/appstore/static/js/3.3de4c23c.chunk.js",
+    "static/js/3.3de4c23c.chunk.js.map": "/appstore/static/js/3.3de4c23c.chunk.js.map",
+    "index.html": "/appstore/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/appstore/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.62c4e4a6.chunk.js.LICENSE.txt": "/appstore/static/js/2.62c4e4a6.chunk.js.LICENSE.txt",
+    "static/media/COD-BO.png": "/appstore/static/media/COD-BO.760d541d.png",
+    "static/media/GTA-5.jpg": "/appstore/static/media/GTA-5.122f73c2.jpg",
+    "static/media/PES.jpg": "/appstore/static/media/PES.126a3308.jpg",
+    "static/media/action.png": "/appstore/static/media/action.9f1e36b2.png",
+    "static/media/arrow.png": "/appstore/static/media/arrow.cb7833c4.png",
+    "static/media/blue-xbox.png": "/appstore/static/media/blue-xbox.ded2a807.png",
+    "static/media/sports.jpg": "/appstore/static/media/sports.126a3308.jpg",
+    "static/media/strategic.jpg": "/appstore/static/media/strategic.30692a9e.jpg",
+    "static/media/subdiv1.62e69892.svg": "/appstore/static/media/subdiv1.62e69892.svg",
+    "static/media/subdiv2.ba6cfd80.svg": "/appstore/static/media/subdiv2.ba6cfd80.svg",
+    "static/media/subdiv3.a6968c5b.svg": "/appstore/static/media/subdiv3.a6968c5b.svg",
+    "static/media/subdiv4.ff1b2d02.svg": "/appstore/static/media/subdiv4.ff1b2d02.svg",
+    "static/media/triangle-png.png": "/appstore/static/media/triangle-png.d44a0a29.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.82ae471c.js",
+    "static/js/2.62c4e4a6.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.d5fb7746.chunk.js"
+  ]
+}
