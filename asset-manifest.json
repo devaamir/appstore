@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/appstore/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/appstore/static/js/main.b95455e8.chunk.js",
-    "main.js.map": "/appstore/static/js/main.b95455e8.chunk.js.map",
+    "main.js": "/appstore/static/js/main.3459ffc0.chunk.js",
+    "main.js.map": "/appstore/static/js/main.3459ffc0.chunk.js.map",
     "runtime-main.js": "/appstore/static/js/runtime-main.b85c9013.js",
     "runtime-main.js.map": "/appstore/static/js/runtime-main.b85c9013.js.map",
-    "static/js/2.4a31b2b2.chunk.js": "/appstore/static/js/2.4a31b2b2.chunk.js",
-    "static/js/2.4a31b2b2.chunk.js.map": "/appstore/static/js/2.4a31b2b2.chunk.js.map",
+    "static/js/2.c413e7cf.chunk.js": "/appstore/static/js/2.c413e7cf.chunk.js",
+    "static/js/2.c413e7cf.chunk.js.map": "/appstore/static/js/2.c413e7cf.chunk.js.map",
     "static/js/3.2bff815d.chunk.js": "/appstore/static/js/3.2bff815d.chunk.js",
     "static/js/3.2bff815d.chunk.js.map": "/appstore/static/js/3.2bff815d.chunk.js.map",
     "index.html": "/appstore/index.html",
     "static/css/main.8c8b27cf.chunk.css.map": "/appstore/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.4a31b2b2.chunk.js.LICENSE.txt": "/appstore/static/js/2.4a31b2b2.chunk.js.LICENSE.txt",
+    "static/js/2.c413e7cf.chunk.js.LICENSE.txt": "/appstore/static/js/2.c413e7cf.chunk.js.LICENSE.txt",
     "static/media/Assassins-Creed.jpg": "/appstore/static/media/Assassins-Creed.7e9e90aa.jpg",
     "static/media/COD-BO.png": "/appstore/static/media/COD-BO.760d541d.png",
     "static/media/Cyber-Punk.jpg": "/appstore/static/media/Cyber-Punk.081534c7.jpg",
@@ -31,8 +31,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b85c9013.js",
-    "static/js/2.4a31b2b2.chunk.js",
+    "static/js/2.c413e7cf.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.b95455e8.chunk.js"
+    "static/js/main.3459ffc0.chunk.js"
   ]
 }
