@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/appstore/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/appstore/static/js/main.1eb5b80a.chunk.js",
-    "main.js.map": "/appstore/static/js/main.1eb5b80a.chunk.js.map",
-    "runtime-main.js": "/appstore/static/js/runtime-main.bd44398e.js",
-    "runtime-main.js.map": "/appstore/static/js/runtime-main.bd44398e.js.map",
-    "static/js/2.a619fac0.chunk.js": "/appstore/static/js/2.a619fac0.chunk.js",
-    "static/js/2.a619fac0.chunk.js.map": "/appstore/static/js/2.a619fac0.chunk.js.map",
-    "static/js/3.df0e02f3.chunk.js": "/appstore/static/js/3.df0e02f3.chunk.js",
-    "static/js/3.df0e02f3.chunk.js.map": "/appstore/static/js/3.df0e02f3.chunk.js.map",
+    "main.js": "/appstore/static/js/main.d9b73cc9.chunk.js",
+    "main.js.map": "/appstore/static/js/main.d9b73cc9.chunk.js.map",
+    "runtime-main.js": "/appstore/static/js/runtime-main.84d36a0d.js",
+    "runtime-main.js.map": "/appstore/static/js/runtime-main.84d36a0d.js.map",
+    "static/js/2.7a11fe03.chunk.js": "/appstore/static/js/2.7a11fe03.chunk.js",
+    "static/js/2.7a11fe03.chunk.js.map": "/appstore/static/js/2.7a11fe03.chunk.js.map",
+    "static/js/3.5f14aa12.chunk.js": "/appstore/static/js/3.5f14aa12.chunk.js",
+    "static/js/3.5f14aa12.chunk.js.map": "/appstore/static/js/3.5f14aa12.chunk.js.map",
     "index.html": "/appstore/index.html",
     "static/css/main.8c8b27cf.chunk.css.map": "/appstore/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.a619fac0.chunk.js.LICENSE.txt": "/appstore/static/js/2.a619fac0.chunk.js.LICENSE.txt",
+    "static/js/2.7a11fe03.chunk.js.LICENSE.txt": "/appstore/static/js/2.7a11fe03.chunk.js.LICENSE.txt",
     "static/media/Assassins-Creed.jpg": "/appstore/static/media/Assassins-Creed.7e9e90aa.jpg",
     "static/media/COD-BO.png": "/appstore/static/media/COD-BO.760d541d.png",
     "static/media/Cyber-Punk.jpg": "/appstore/static/media/Cyber-Punk.081534c7.jpg",
@@ -24,18 +24,21 @@
     "static/media/arrow.png": "/appstore/static/media/arrow.cb7833c4.png",
     "static/media/blue-xbox.png": "/appstore/static/media/blue-xbox.ded2a807.png",
     "static/media/btmarrowtriangle.svg": "/appstore/static/media/btmarrowtriangle.94f55faa.svg",
+    "static/media/cart.png": "/appstore/static/media/cart.eca5ee08.png",
+    "static/media/search.webp": "/appstore/static/media/search.d9e42577.webp",
     "static/media/sports.jpg": "/appstore/static/media/sports.126a3308.jpg",
     "static/media/strategic.jpg": "/appstore/static/media/strategic.30692a9e.jpg",
     "static/media/subdiv1.62e69892.svg": "/appstore/static/media/subdiv1.62e69892.svg",
     "static/media/subdiv2.ba6cfd80.svg": "/appstore/static/media/subdiv2.ba6cfd80.svg",
     "static/media/subdiv3.a6968c5b.svg": "/appstore/static/media/subdiv3.a6968c5b.svg",
     "static/media/subdiv4.ff1b2d02.svg": "/appstore/static/media/subdiv4.ff1b2d02.svg",
-    "static/media/triangle-png.png": "/appstore/static/media/triangle-png.d44a0a29.png"
+    "static/media/triangle-png.png": "/appstore/static/media/triangle-png.d44a0a29.png",
+    "static/media/wishlist.png": "/appstore/static/media/wishlist.3bd32b56.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.bd44398e.js",
-    "static/js/2.a619fac0.chunk.js",
+    "static/js/runtime-main.84d36a0d.js",
+    "static/js/2.7a11fe03.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.1eb5b80a.chunk.js"
+    "static/js/main.d9b73cc9.chunk.js"
   ]
 }
