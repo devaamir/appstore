@@ -185,7 +185,7 @@ const SubDiv = styled.div`
     margin: 10px 0 0;
     background: url(${subdiv1}) no-repeat;
     background-size: cover;
-    border-radius: 7px;
+    border-radius: 12px;
     position: relative;
     box-shadow: 8px 8px 10px 0 rgba(0, 0, 0, 0.4);
     fill: #ff3312;
