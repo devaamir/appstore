@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/appstore/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/appstore/static/js/main.3459ffc0.chunk.js",
-    "main.js.map": "/appstore/static/js/main.3459ffc0.chunk.js.map",
+    "main.js": "/appstore/static/js/main.3967d2b9.chunk.js",
+    "main.js.map": "/appstore/static/js/main.3967d2b9.chunk.js.map",
     "runtime-main.js": "/appstore/static/js/runtime-main.b85c9013.js",
     "runtime-main.js.map": "/appstore/static/js/runtime-main.b85c9013.js.map",
     "static/js/2.c413e7cf.chunk.js": "/appstore/static/js/2.c413e7cf.chunk.js",
@@ -33,6 +33,6 @@
     "static/js/runtime-main.b85c9013.js",
     "static/js/2.c413e7cf.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.3459ffc0.chunk.js"
+    "static/js/main.3967d2b9.chunk.js"
   ]
 }
