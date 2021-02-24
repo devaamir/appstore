@@ -97,7 +97,24 @@ export default function Home() {
                         <AppPrice>$ 29.99</AppPrice>
                         <AddBtn>Add to Cart</AddBtn>
                     </Apps>
+                    <Apps>
+                        <AppImg src={require('../assets/absolver.jpg').default} alt="app-image" />
+                        <AppName>Absolver - Downfall</AppName> 
+                        <AppPrice>$ 44.99</AppPrice>
+                        <AddBtn>Add to Cart</AddBtn>
+                    </Apps>
+                    <Apps>
+                        <AppImg src={require('../assets/Dead-by-Daylight-Silent-Hill.jpg').default} alt="app-image" />
+                        <AppName>Dead by Daylight</AppName> 
+                        <AppPrice>Free</AppPrice>
+                        <AddBtn>Add to Cart</AddBtn>
+                    </Apps>
                 </AppsList>
+                <BottomDiv>
+                    <MoreBtn>Show More
+                        <BtmArrow src={require('../assets/btmarrowtriangle.svg').default} alt="arrow-btm" />
+                    </MoreBtn>
+                </BottomDiv>
             </Products>
         </Wrapper>
     )
@@ -160,6 +177,7 @@ const OfferBtn = styled.a`
     display: flex;
     justify-content: space-between;
     width: 115px;
+    cursor: pointer;
 `;
 
 const BtnImg = styled.img`
@@ -188,6 +206,7 @@ const SubDiv = styled.div`
     border-radius: 12px;
     position: relative;
     box-shadow: 8px 8px 10px 0 rgba(0, 0, 0, 0.4);
+    cursor: pointer;
     fill: #ff3312;
     &:nth-child(2) {
         background: url(${subdiv2}) no-repeat;
@@ -275,6 +294,7 @@ const CatName = styled.a`
     justify-content: center;
     color: #FF876C;
     font-weight: bold;
+    cursor: pointer;
     &:hover,:focus {
         background: linear-gradient(to right, #FF755C ,#FF876C);
         border-radius: 30px;
@@ -294,6 +314,7 @@ const Apps = styled.div`
     border-radius: 10px;
     box-shadow: 0 0 1px 0 rgb(0, 0, 0, 0.4);
     padding: 10px;
+    cursor: pointer;
     &:hover,:focus {
         box-shadow: 0 0 6px 0 rgb(0, 0, 0, 0.4);
         height: 390px;
@@ -325,4 +346,31 @@ const AddBtn = styled.a`
     display: none;
     text-align: center;
     font-weight: bold;
+`;
+
+const BottomDiv = styled.div`
+    width: 100%;
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`;
+
+const MoreBtn = styled.a`
+    padding: 20px 24px; 
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #FF755C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #FF876C;
+`;
+
+const BtmArrow = styled.img`
+    width: 10px;
+    transform: rotate(180deg);
+    margin-left: 15px;
 `;
