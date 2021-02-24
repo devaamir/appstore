@@ -79,21 +79,21 @@ export default function Home() {
                         <AddBtn>Add to Cart</AddBtn>
                     </Apps>
                     <Apps>
-                        <AppImg src={require('../assets/COD-BO.png').default} alt="app-image" />
-                        <AppName>CALL OF DUTY: BLACK OPs </AppName>
-                        <AppPrice>$ 19.99</AppPrice>
+                        <AppImg src={require('../assets/Cyber-Punk.jpg').default} alt="app-image" />
+                        <AppName>Cyberpunk 2077</AppName>
+                        <AppPrice>$ 59.99</AppPrice>
                         <AddBtn>Add to Cart</AddBtn>
                     </Apps>
                     <Apps>
-                        <AppImg src={require('../assets/COD-BO.png').default} alt="app-image" />
-                        <AppName>CALL OF DUTY: BLACK OPs </AppName>
-                        <AppPrice>$ 19.99</AppPrice>
+                        <AppImg src={require('../assets/Assassins-Creed.jpg').default} alt="app-image" />
+                        <AppName>Assassin's Creed : Valhalla</AppName>
+                        <AppPrice>$ 39.99</AppPrice>
                         <AddBtn>Add to Cart</AddBtn>
                     </Apps>
                     <Apps>
-                        <AppImg src={require('../assets/COD-BO.png').default} alt="app-image" />
-                        <AppName>CALL OF DUTY: BLACK OPs </AppName>
-                        <AppPrice>$ 19.99</AppPrice>
+                        <AppImg src={require('../assets/Red-Dead-Redemption-II-PC.jpg').default} alt="app-image" />
+                        <AppName>Red Dead Redemption 2</AppName> 
+                        <AppPrice>$ 29.99</AppPrice>
                         <AddBtn>Add to Cart</AddBtn>
                     </Apps>
                     <Apps>
