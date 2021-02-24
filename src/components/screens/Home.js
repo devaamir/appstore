@@ -10,6 +10,7 @@ export default function Home() {
         <Wrapper>
             <Section>
                 <DivLeft>
+                    <SubHeading>over 2,000 games</SubHeading>
                     <Heading>Best Deals on AppStore</Heading>
                     <Image src={require('../assets/blue-xbox.png').default} alt="image" />
                     <OfferBtn>View Offer <BtnImg src={require('../assets/triangle-png.png').default} alt="arrow" /></OfferBtn>
@@ -96,30 +97,6 @@ export default function Home() {
                         <AppPrice>$ 29.99</AppPrice>
                         <AddBtn>Add to Cart</AddBtn>
                     </Apps>
-                    <Apps>
-                        <AppImg src={require('../assets/COD-BO.png').default} alt="app-image" />
-                        <AppName>CALL OF DUTY: BLACK OPs </AppName>
-                        <AppPrice>$ 19.99</AppPrice>
-                        <AddBtn>Add to Cart</AddBtn>
-                    </Apps>
-                    <Apps>
-                        <AppImg src={require('../assets/COD-BO.png').default} alt="app-image" />
-                        <AppName>CALL OF DUTY: BLACK OPs </AppName>
-                        <AppPrice>$ 19.99</AppPrice>
-                        <AddBtn>Add to Cart</AddBtn>
-                    </Apps>
-                    <Apps>
-                        <AppImg src={require('../assets/COD-BO.png').default} alt="app-image" />
-                        <AppName>CALL OF DUTY: BLACK OPs </AppName>
-                        <AppPrice>$ 19.99</AppPrice>
-                        <AddBtn>Add to Cart</AddBtn>
-                    </Apps>
-                    <Apps>
-                        <AppImg src={require('../assets/COD-BO.png').default} alt="app-image" />
-                        <AppName>CALL OF DUTY: BLACK OPs </AppName>
-                        <AppPrice>$ 19.99</AppPrice>
-                        <AddBtn>Add to Cart</AddBtn>
-                    </Apps>
                 </AppsList>
             </Products>
         </Wrapper>
@@ -147,11 +124,19 @@ const DivLeft = styled.div`
     box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.4);
 `;
 
+const SubHeading = styled.h3`
+    color: #fff;
+    opacity: 0.5;
+    font-weight: 500;
+    margin: 110px 0 0 86px; 
+    font-size: 28px;
+`;
+
 const Heading = styled.h2`
     font-size: 76px;
     color: #fff;
     max-width: 456px;
-    margin: 122px 0 0 86px; 
+    margin:0 86px; 
 `;
 
 const Image = styled.img`
@@ -170,7 +155,7 @@ const OfferBtn = styled.a`
     padding: 8px 24px;
     border: 1px solid #fff;
     border-radius: 30px;
-    margin: 58px 0 0 86px;
+    margin: 50px 0 0 86px;
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -195,8 +180,8 @@ const DivRight = styled.div`
 `;
 
 const SubDiv = styled.div`
-    width: 43%;
-    height: 150px;
+    width: 47%;
+    height: 170px;
     margin: 10px 0 0;
     background: url(${subdiv1}) no-repeat;
     background-size: cover;
@@ -215,12 +200,15 @@ const SubDiv = styled.div`
     &:last-child {
         background: url(${subdiv4}) no-repeat;
         background-size: cover;
+        span{
+            transform: rotate(90deg);
+        }
     }
 `;
 
 const H3 = styled.h3`
     color: #fff;
-    margin: 80px 20px 0;
+    margin: 100px 20px 0;
     font-size: 20px;
     display: flex;
     justify-content: space-between;
@@ -241,8 +229,6 @@ const Span = styled.span`
     justify-content: center;
     padding: 10px;
     border-radius: 50%;
-    // position: absolute;
-    // right: 0;
     `;
 
 const ArrowImg = styled.img`
@@ -256,7 +242,7 @@ const CatImg = styled.img`
     display: block;
     position: absolute;
     border-radius: 5px;
-    top: -75px;
+    top: -50px;
     left: 0;
     margin: 0 auto;
     right: 0;
