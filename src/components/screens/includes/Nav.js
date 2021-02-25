@@ -88,6 +88,7 @@ const SignUpBtn = styled.a`
     background: #fff;
     border: 1px solid #FF896F;
     color: #FF896F;
+    cursor: pointer;
 `;
 
 const LoginBtn = styled.a`
@@ -99,11 +100,13 @@ const LoginBtn = styled.a`
     background: #fff;
     border: 1px solid #FF896F;
     color: #FF896F;
+    cursor: pointer;
 `;
 
 const FavList = styled.a`
     width: 35px;
     display: inline-block;
+    cursor: pointer;
 `;
 
 const FavListImg = styled.img`
@@ -114,6 +117,7 @@ const FavListImg = styled.img`
 const CartList = styled.a`
     width: 35px;
     display: inline-block;
+    cursor: pointer;
 `;
 
 const CartListImg = styled.img`

@@ -7,6 +7,7 @@ import subdiv4 from '../assets/subdiv4.svg'
 
 export default function Home() {
     return (
+        <>
         <Wrapper>
             <Section>
                 <DivLeft>
@@ -117,6 +118,11 @@ export default function Home() {
                 </BottomDiv>
             </Products>
         </Wrapper>
+        <Footer>
+            <Copyright>&copy; 2021 AppStore. All Rights Reserved</Copyright>
+            <Pptc>Privacy And Policy</Pptc>
+        </Footer>
+                </>
     )
 }
 
@@ -374,3 +380,17 @@ const BtmArrow = styled.img`
     transform: rotate(180deg);
     margin-left: 15px;
 `;
+
+const Footer = styled.footer`
+    max-width: 1280px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #253344;
+`;
+
+const Copyright = styled.p``;
+
+const Pptc = styled.a``;
