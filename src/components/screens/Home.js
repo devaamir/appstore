@@ -68,8 +68,8 @@ export default function Home() {
 			let padding = window
 				.getComputedStyle(siblingTag, null)
 				.getPropertyValue("padding");
-			let wdth = widths - parseInt(padding);
-			document.querySelector(".main").style.width = `${wdth}px`;
+			// let wdth = widths - parseInt(padding);
+			// document.querySelector(".main").style.width = `${wdth}px`;
 			console.log(document.querySelector(".main"));
 		}
 	}
@@ -411,7 +411,6 @@ const AppContainer2 = styled.div`
 	position: absolute;
 	top: 0;
 	left: 0;
-	// width: 291px;
 	z-index: 1;
 `;
 
