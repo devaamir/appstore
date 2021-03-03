@@ -60,19 +60,23 @@ export default function Home() {
 	]);
 
 	function IsHoveredApp(e) {
-		e.currentTarget.classList.add("active");
-		if (e.currentTarget.getElementsByClassName("active")) {
-			// e.currentTarget.style.transform = "scale(1,1.2)";
-			e.currentTarget.querySelector("div a").style.display = "block";
+		if ((e.currentTarget.style.display = "block")) {
+			let widths = e.currentTarget.clientWidth;
+			e.currentTarget.style.display = "none";
+			e.currentTarget.nextSibling.style.display = "block";
+			let siblingTag = e.currentTarget.nextSibling;
+			let padding = window
+				.getComputedStyle(siblingTag, null)
+				.getPropertyValue("padding");
+			let wdth = widths - parseInt(padding);
+			document.querySelector(".main").style.width = `${wdth}px`;
+			console.log(document.querySelector(".main"));
 		}
 	}
 
 	function IsLeaveApp(e) {
-		if (e.currentTarget.getElementsByClassName("active")) {
-			// e.currentTarget.style.transform = "scale(1,1.2)";
-			e.currentTarget.classList.remove("active");
-			e.currentTarget.querySelector("div a").style.display = "none";
-		}
+		e.currentTarget.previousSibling.style.display = "block";
+		e.currentTarget.style.display = "none";
 	}
 
 	return (
@@ -158,15 +162,20 @@ export default function Home() {
 					</TopDiv>
 					<AppsList>
 						{apps.map((app) => (
-							<AppContainer
-								key={app.id}
-								onMouseEnter={IsHoveredApp}
-								onMouseLeave={IsLeaveApp}>
-								<AppImg src={app.image.default} alt='app-image' />
-								<AppName>{app.name}</AppName>
-								<AppPrice>$ {app.price}</AppPrice>
-								<AddBtn>Add to Cart</AddBtn>
-							</AppContainer>
+							<AppTwo>
+								<AppContainer key={app.id} onMouseEnter={IsHoveredApp}>
+									<AppImg src={app.image.default} alt='app-image' />
+									<AppName>{app.name}</AppName>
+									<AppPrice>$ {app.price}</AppPrice>
+									{/* <AddBtn>Add to Cart</AddBtn> */}
+								</AppContainer>
+								<AppContainer2 className='main' onMouseLeave={IsLeaveApp}>
+									<AppImg src={app.image.default} alt='app-image' />
+									<AppName>{app.name}</AppName>
+									<AppPrice>$ {app.price}</AppPrice>
+									<AddBtn>Add to Cart</AddBtn>
+								</AppContainer2>
+							</AppTwo>
 						))}
 					</AppsList>
 					<BottomDiv>
@@ -376,6 +385,13 @@ const AppsList = styled.div`
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-gap: 26px;
+	.main {
+		display: none;
+	}
+`;
+
+const AppTwo = styled.div`
+	position: relative;
 `;
 
 const AppContainer = styled.div`
@@ -383,6 +399,20 @@ const AppContainer = styled.div`
 	box-shadow: 0 0 1px 0 rgb(0, 0, 0, 0.4);
 	padding: 10px;
 	cursor: pointer;
+`;
+
+const AppContainer2 = styled.div`
+	border-radius: 10px;
+	box-shadow: 0 0 10px 0 rgb(0, 0, 0, 0.4);
+	padding: 10px;
+	// cursor: pointer;
+	display: none;
+	background: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	// width: 291px;
+	z-index: 1;
 `;
 
 const AppImg = styled.img`
@@ -401,10 +431,11 @@ const AddBtn = styled.a`
 	background: linear-gradient(to right, #ff755c, #ff876c);
 	color: #fff;
 	border-radius: 30px;
-	display: none;
+	display: block;
 	text-align: center;
 	font-weight: bold;
 	justify-content: center;
+	cursor: pointer;
 `;
 
 const BottomDiv = styled.div`
