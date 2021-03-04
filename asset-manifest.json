@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/appstore/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/appstore/static/js/main.0024c754.chunk.js",
-    "main.js.map": "/appstore/static/js/main.0024c754.chunk.js.map",
-    "runtime-main.js": "/appstore/static/js/runtime-main.3accfb31.js",
-    "runtime-main.js.map": "/appstore/static/js/runtime-main.3accfb31.js.map",
-    "static/js/2.c3499703.chunk.js": "/appstore/static/js/2.c3499703.chunk.js",
-    "static/js/2.c3499703.chunk.js.map": "/appstore/static/js/2.c3499703.chunk.js.map",
-    "static/js/3.117d2eab.chunk.js": "/appstore/static/js/3.117d2eab.chunk.js",
-    "static/js/3.117d2eab.chunk.js.map": "/appstore/static/js/3.117d2eab.chunk.js.map",
+    "main.js": "/appstore/static/js/main.935cda8e.chunk.js",
+    "main.js.map": "/appstore/static/js/main.935cda8e.chunk.js.map",
+    "runtime-main.js": "/appstore/static/js/runtime-main.6bc49bd6.js",
+    "runtime-main.js.map": "/appstore/static/js/runtime-main.6bc49bd6.js.map",
+    "static/js/2.4908729f.chunk.js": "/appstore/static/js/2.4908729f.chunk.js",
+    "static/js/2.4908729f.chunk.js.map": "/appstore/static/js/2.4908729f.chunk.js.map",
+    "static/js/3.a3c661bc.chunk.js": "/appstore/static/js/3.a3c661bc.chunk.js",
+    "static/js/3.a3c661bc.chunk.js.map": "/appstore/static/js/3.a3c661bc.chunk.js.map",
     "index.html": "/appstore/index.html",
     "static/css/main.8c8b27cf.chunk.css.map": "/appstore/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.c3499703.chunk.js.LICENSE.txt": "/appstore/static/js/2.c3499703.chunk.js.LICENSE.txt",
+    "static/js/2.4908729f.chunk.js.LICENSE.txt": "/appstore/static/js/2.4908729f.chunk.js.LICENSE.txt",
     "static/media/absolver.jpg": "/appstore/static/media/absolver.b5cd82a6.jpg",
     "static/media/action.png": "/appstore/static/media/action.9f1e36b2.png",
     "static/media/arrow.png": "/appstore/static/media/arrow.cb7833c4.png",
@@ -22,6 +22,7 @@
     "static/media/cod-bo.jpg": "/appstore/static/media/cod-bo.760d541d.jpg",
     "static/media/cyber-punk.jpg": "/appstore/static/media/cyber-punk.081534c7.jpg",
     "static/media/dead-by-daylight.jpg": "/appstore/static/media/dead-by-daylight.409e13d5.jpg",
+    "static/media/fav-icon.png": "/appstore/static/media/fav-icon.b6d45e27.png",
     "static/media/gta-5.jpg": "/appstore/static/media/gta-5.17fc4fd7.jpg",
     "static/media/pes.jpg": "/appstore/static/media/pes.126a3308.jpg",
     "static/media/red-dead-redemption.jpg": "/appstore/static/media/red-dead-redemption.43621ff2.jpg",
@@ -33,12 +34,12 @@
     "static/media/subdiv3.a6968c5b.svg": "/appstore/static/media/subdiv3.a6968c5b.svg",
     "static/media/subdiv4.ff1b2d02.svg": "/appstore/static/media/subdiv4.ff1b2d02.svg",
     "static/media/triangle-png.png": "/appstore/static/media/triangle-png.d44a0a29.png",
-    "static/media/wishlist.png": "/appstore/static/media/wishlist.3bd32b56.png"
+    "static/media/wishlist.png": "/appstore/static/media/wishlist.4520bc8d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.3accfb31.js",
-    "static/js/2.c3499703.chunk.js",
+    "static/js/runtime-main.6bc49bd6.js",
+    "static/js/2.4908729f.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.0024c754.chunk.js"
+    "static/js/main.935cda8e.chunk.js"
   ]
 }
