@@ -6,7 +6,7 @@ import subdiv3 from "../assets/subdiv3.svg";
 import subdiv4 from "../assets/subdiv4.svg";
 
 export default function Home() {
-	const [isHoveredApp, setIsHoveredApp] = useState(false);
+	// const [isHoveredApp, setIsHoveredApp] = useState(false);
 
 	const [apps, setApps] = useState([
 		{
@@ -58,6 +58,8 @@ export default function Home() {
 			image: require("../assets/dead-by-daylight.jpg"),
 		},
 	]);
+
+	const [favList, setFavList] = useState();
 
 	function IsHoveredApp(e) {
 		if ((e.currentTarget.style.display = "block")) {
@@ -169,6 +171,17 @@ export default function Home() {
 									{/* <AddBtn>Add to Cart</AddBtn> */}
 								</AppContainer>
 								<AppContainer2 className='main' onMouseLeave={IsLeaveApp}>
+									<FavList onClick={() => setFavList(app.id)}>
+										<FavImg
+											src={
+												require(favList === app.id
+													? "../assets/fav-icon.png"
+													: "../assets/wishlist.png").default
+											}
+											// src={require("../assets/fav-icon.png").default}
+											alt=''
+										/>
+									</FavList>
 									<AppImg src={app.image.default} alt='app-image' />
 									<AppName>{app.name}</AppName>
 									<AppPrice>$ {app.price}</AppPrice>
@@ -419,6 +432,27 @@ const AppContainer2 = styled.div`
 	margin: 0 auto;
 	// left: 0;
 	z-index: 1;
+`;
+
+const FavList = styled.span`
+	width: 20px;
+	height 20px;
+	display: inline-block;
+	cursor: pointer;
+	position: absolute;
+	background: #fff;
+	border-radius: 50px;
+	padding: 5px;
+	top: 20px;
+	right: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+`;
+
+const FavImg = styled.img`
+	display: inline-block;
+	width: 100%;
 `;
 
 const AppImg = styled.img`
