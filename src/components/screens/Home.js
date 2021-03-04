@@ -68,9 +68,8 @@ export default function Home() {
 			let padding = window
 				.getComputedStyle(siblingTag, null)
 				.getPropertyValue("padding");
-			// let wdth = widths - parseInt(padding);
-			// document.querySelector(".main").style.width = `${wdth}px`;
-			console.log(document.querySelector(".main"));
+			let wdth = widths - parseInt(padding);
+			e.currentTarget.nextSibling.style.width = `${wdth}px`;
 		}
 	}
 
@@ -162,8 +161,8 @@ export default function Home() {
 					</TopDiv>
 					<AppsList>
 						{apps.map((app) => (
-							<AppTwo>
-								<AppContainer key={app.id} onMouseEnter={IsHoveredApp}>
+							<AppTwo key={app.id}>
+								<AppContainer onMouseEnter={IsHoveredApp}>
 									<AppImg src={app.image.default} alt='app-image' />
 									<AppName>{app.name}</AppName>
 									<AppPrice>$ {app.price}</AppPrice>
@@ -281,7 +280,7 @@ const SubDiv = styled.div`
 	background-size: cover;
 	border-radius: 12px;
 	position: relative;
-	box-shadow: 8px 8px 10px 0 rgba(0, 0, 0, 0.4);
+	box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.1);
 	cursor: pointer;
 	fill: #ff3312;
 	&:nth-child(2) {
@@ -371,6 +370,11 @@ const CatName = styled.a`
 	color: #ff876c;
 	font-weight: bold;
 	cursor: pointer;
+	&.active {
+		background: linear-gradient(to right, #ff755c, #ff876c);
+		border-radius: 30px;
+		color: #fff;
+	}
 	&:hover,
 	:focus {
 		background: linear-gradient(to right, #ff755c, #ff876c);
@@ -385,32 +389,35 @@ const AppsList = styled.div`
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-gap: 26px;
-	.main {
+	&.main {
 		display: none;
 	}
 `;
 
 const AppTwo = styled.div`
+	width: 100%;
 	position: relative;
 `;
 
 const AppContainer = styled.div`
 	border-radius: 10px;
-	box-shadow: 0 0 1px 0 rgb(0, 0, 0, 0.4);
+	box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.4);
 	padding: 10px;
 	cursor: pointer;
+	margin: 0 auto;
 `;
 
 const AppContainer2 = styled.div`
 	border-radius: 10px;
-	box-shadow: 0 0 10px 0 rgb(0, 0, 0, 0.4);
+	box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.1);
 	padding: 10px;
 	// cursor: pointer;
 	display: none;
 	background: #fff;
 	position: absolute;
 	top: 0;
-	left: 0;
+	margin: 0 auto;
+	// left: 0;
 	z-index: 1;
 `;
 
