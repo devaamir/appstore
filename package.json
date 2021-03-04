@@ -2,7 +2,7 @@
   "name": "app-store",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://devaamir.github.io/appstore",
+  "homepage": "http://devaamir.me",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
